@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+  float side,area;
+  printf("Enter side of equivalent triangle:\n");
+  scanf("%f",&side);
+  area=(1.732*side*side)/4;
+  printf("area of equilateral triangle:\n%.4f",area);
+  return;
+ } 
